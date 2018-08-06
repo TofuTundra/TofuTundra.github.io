@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="us-en">
+<head>
+	<meta charset="UTF-8">
+
+	<!-- responsive -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	
+	<!-- JQuery -->
+	  < <script src="https://code.jquery.com/jquery.js"></script> 
+	  
+	<!-- WebKit -->
+
+	  <script src="http://use.typekit.net/fzq7emy.js"></script>
+	  <script>try{Typekit.load();}catch(e){}</script> 
+
+	<!-- Style Sheet -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	
+
+
+	<title> Hangman Game </title>
+
+</head>
+
+<body>
+	<div class="container" id="styleContainer">
+		<div class="row">
+			
+			<div class="col-md-2">
+			</div>
+
+			
+			<div class="col-md-8" id="content">
+			
+			<div class="row">
+				<div class="page-header" id="header">
+					  <h1><strong>Hangman Game</strong></h1>
+				</div>
+			</div>
+			
+			<div class="row">
+					
+
+				<div class="col-md-6", id="info-side">
+					<img id="hangman-pic" src="assets/images/noose.png">
+					<div class="panel panel-default">
+							<div class="panel-heading">
+						    	<h3 class="panel-title">Letters Guessed</h3>
+					     	</div>
+							<div class="panel-body" id="wrongGuesses">
+
+							</div>
+						</div>
+					
+					
+					
+				
+				</div>
+				<div class="col-md-6 text-center rightside">
+					
+						<div class="panel panel-default">
+							<div class="panel-heading">
+						    	<h3 class="panel-title">Word to guess</h3>
+					     	</div>
+							<div class="panel-body" id="wordToGuess">
+							    ________________
+							</div>
+							
+						</div>
+						
+						<div class="panel panel-default">
+							<div class="panel-body">
+							    Guesses Left: <span id="guessesLeft"> 10 </span>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-body">
+							    <span class="pull-left" aria-hidden="true"></span>  Wins: <span id="wins"> 0 </span><span class="pull-right" aria-hidden="true"></span>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-body">
+							    <span class="pull-left" aria-hidden="true"></span>  Losses: <span id="losses"> 0 </span> <span class="pull-right" aria-hidden="true"></span>
+							</div>
+						</div>
+				</div>
+
+			</div>
+		</div>
+		</div>
+	</div>
+
+	
+	<script type="text/javascript" src="assets/javascript/game.js">
+    </script>
+</body>
+</html>

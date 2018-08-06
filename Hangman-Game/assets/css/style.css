@@ -1,0 +1,84 @@
+body {
+	
+	background-image: url("../images/qbkls.png");
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+}
+
+.container{
+	margin-top: 100px;
+
+}
+
+
+#header {
+	text-align: center;
+	margin-bottom: 50px;
+	background-color: #fff;
+	color: rgb(35, 194, 146);
+	margin-top: -10px;
+	padding-bottom: 15px;
+}
+
+#content {
+	
+	background-color: rgb(93, 185, 154);
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-align: center;
+	border: solid 3px rgb(45, 177, 126);
+}
+
+#hangman-pic {
+	height: 250px;
+	width: 250px;
+	margin-bottom: 10px;
+}
+
+.panel-body {
+	color: black;
+}
+
+
+
+.row {
+    perspective:100px;
+}
+#info-side {
+    /* transform: 
+        skewY(7deg) scale(.66)
+        translate(20px) skewY(7deg) scale(.66),
+        translate(150px,50px) scale(1.5,1),
+        translate(280px) skewY(-7deg) scale(.66),
+        translate(300px) skewY(-7deg) scale(.66);
+      
+     */
+} 
+
+#footer {
+	text-align: center;
+	height: 50px;
+	margin-top: 300px;
+	color: white;
+}
+
+
+
+#guessesLeft {
+	color:rgb(35, 194, 146);
+}
+
+.panel-title {
+	font-weight: bold;
+}
+
+
+
+
+
+#hint-answer {
+	padding-top: 10px;
+}
+.space {
+  padding-left: 18px;
+}
