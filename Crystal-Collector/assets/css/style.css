@@ -1,0 +1,44 @@
+body {
+    background-image: url(../images/qbkls.png);
+    color: #ff8360;
+    font-family: 'Permanent Marker', cursive;
+}
+h1 {
+    text-align: center;
+    margin: .5em;
+    padding: .5em;
+    font-size: 5em;
+    color: #6cc566;
+    font-family: 'Lobster', cursive;
+}
+h2 {
+    text-align: left;
+}
+h3, h4 {
+    margin-top:1em;
+}
+.container{
+    background-color: #3cdbd3;
+    padding: .5em;
+    align-content: left;
+}
+.gem-image {
+    width: 7em;
+    height: 7em;
+    margin-left: .5em;
+    margin-right: .5em;
+    padding: 0.1em;;
+    background-color: #e8e288;
+}
+#wins {
+    font-size: 1.5em;
+}
+#losses {
+    font-size: 1.5em;
+}
+.btn-success {
+    color:#6cc566;
+        color: #00fff5;
+        border-color: #adadad;
+        border-radius: .7em;    
+}
