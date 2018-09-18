@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(245, 112, 10);
+    color: #e21111;
+    margin-bottom: 2em;
+}
+
+
+#banner {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: center;
+    background-position: 46% 20%;
+    background-color: brown;
+    color: rgb(87, 180, 241);
+}
+
+.card {
+    margin-bottom: 2em;
+}
+h2 {
+    color: rgb(245, 13, 13);
+}
+
+th {
+    color: rgb(7, 79, 121);
+}
+
+td {
+    color: #6406b1;
+}
+
+.btn {
+    background-color: rgb(163, 19, 43);
+    border: rgb(189, 34, 62);
+}
