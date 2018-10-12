@@ -1,0 +1,21 @@
+{
+  "name": "liri",
+  "version": "1.0.0",
+  "description": "data filter",
+  "main": "liri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "clr",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "liri"
+  },
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "moment": "^2.22.2",
+    "node-spotify-api": "^1.0.7"
+  }
+}
